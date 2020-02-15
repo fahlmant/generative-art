@@ -16,13 +16,9 @@ sfcolor = ["red", "yellow", "green", "blue", "orange", "purple", "white"]
   
 def sunburst(xsize, ysize):
     elsa.color(random.choice(sfcolor)) 
-    #elsa.begin_fill()
     for x in range (0,xsize):
       elsa.forward(xsize)
       elsa.left(ysize)
-#        if abs(elsa.pos()) < 1:
-#            break
-    #elsa.end_fill()
 
 # loop to create 20 different sized snowflakes  
 # with different starting co-ordinates 
