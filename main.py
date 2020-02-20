@@ -9,7 +9,7 @@ wn.bgcolor("black")
   
 # assign a name to your turtle 
 elsa = turtle.Turtle() 
-elsa.speed(100) 
+elsa.speed(200) 
   
 # create a list of colours 
 sfcolor = ["red", "yellow", "green", "blue", "orange", "purple", "white"] 
